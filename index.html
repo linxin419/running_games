@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <META HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+    <META HTTP-EQUIV="expires" CONTENT="0">
+    <title>圣农4度h5</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script type="text/javascript" src="js/lib/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <audio id="back" src="img/back.mp3" class="media-audio" loop="loop" preload="auto"></audio>
+    <audio id="title1" src="img/title1.mp3" class="media-audio" preload="auto"></audio>
+    <audio id="title2" src="img/title2.mp3" class="media-audio" preload="auto"></audio>
+    <div class="load" id="j_loader">
+        <div class="view">
+            <p id="j_progress"><span>1</span>%</p>
+        </div>
+    </div>
+    <!-- 跑步动画 -->
+    <div class="animation page">
+        <img src="img/loading_pic.jpg" alt="">
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide character">
+                <!-- logo -->
+                <div class="logo"><img src="img/logo.png" alt=""></div>
+                <!-- 主题 -->
+                <div class="theme1 theme on"></div>
+                <div class="theme2 theme on"></div>
+                <!-- 如果需要导航按钮 -->
+                <div class="swiper-button-next on"></div>
+            </div>
+            <div class="swiper-slide character1">
+                <!-- logo -->
+                <div class="logo"><img src="img/logo.png" alt=""></div>
+                <div class="icon1"></div>
+                <div class="icon2"></div>
+                <div class="icon3"></div>
+                <div class="icon4"></div>
+                <div class="icon5"></div>
+                <div class="icon6"></div>
+                <div class="icon7"></div>
+                <div class="icon8"></div>
+                <!-- 如果需要导航按钮 -->
+                <div class="swiper-button-next on"></div>
+            </div>
+            <div class="swiper-slide character2">
+                <!-- logo -->
+                <div class="logo"><img src="img/logo.png" alt=""></div>
+                <div class="icon1"></div>
+                <div class="icon2"></div>
+                <div class="icon3"></div>
+                <div class="icon4"></div>
+                <div class="icon5"></div>
+                <div class="icon6"></div>
+                <div class="icon7"></div>
+                <div class="icon8"></div>
+                <!-- 如果需要导航按钮 -->
+                <div class="swiper-button-next on"></div>
+            </div>
+            <div class="swiper-slide character3">
+                <!-- logo -->
+                <div class="logo"><img src="img/logo.png" alt=""></div>
+                <div class="icon1"></div>
+                <div class="icon2"></div>
+                <div class="icon3"></div>
+                <div class="icon4"></div>
+                <div class="icon5"></div>
+                <div class="icon6"></div>
+                <div class="icon7"></div>
+                <!-- 如果需要导航按钮 -->
+                <div class="swiper-button-next on"></div>
+            </div>
+            <div class="swiper-slide character4">
+                <!-- logo -->
+                <div class="logo"><img src="img/logo.png" alt=""></div>
+                <div class="icon1"></div>
+                <div class="icon2"></div>
+                <div class="icon3"></div>
+                <div class="icon4"></div>
+                <div class="icon5"></div>
+                <div class="icon6"></div>
+                <div class="icon7"></div>
+                <div class="icon8"></div>
+                <!-- 如果需要导航按钮 -->
+                <div class="swiper-button-next on"></div>
+            </div>
+            <div class="swiper-slide rule">
+                <!-- logo -->
+                <div class="logo"><img src="img/logo.png" alt=""></div>
+                <div class="icon1"></div>
+                <div class="icon2"></div>
+                <div class="icon3"></div>
+                <div class="icon4"></div>
+                <div class="icon5"></div>
+                <div class="btn"></div>
+            </div>
+        </div>
+    </div>
+    <div class="racetrack page">
+        <div class="time">
+            <p>30s</p>
+        </div>
+        <p class="distance">0米</p>
+        <div class="character on Starting"></div>
+        <div class="btn"><img src="img/racetrack_btn.png" alt=""></div>
+    </div>
+    <!-- 中奖表单 -->
+    <div class="page reward disnone">
+        <!-- logo -->
+        <div class="logo"><img src="img/logo.png" alt=""></div>
+        <!-- 规则 -->
+        <div class="icon"><img src="img/reward_icon.png" alt=""></div>
+        <h5>本次开跑你获得第一名<br>获得奖品</h5>
+        <div class="prize"><img src="img/prize_icon1.png" alt=""></div>
+        <div class="form">
+            <input type="text" class="name" placeholder="姓名">
+            <input type="text" class="phone" placeholder="手机">
+        </div>
+        <div class="btn">
+            <span><img src="img/reward_btn1.png" alt=""></span>
+            <span><img src="img/reward_btn2.png" alt=""></span>
+        </div>
+    </div>
+    <!-- 失败 -->
+    <div class="page fail disnone">
+        <!-- logo -->
+        <div class="logo"><img src="img/logo.png" alt=""></div>
+        <!-- 规则 -->
+        <div class="icon"><img src="img/fail_icon.png" alt=""></div>
+        <h5>你本次开跑没有获得名次<br>再接再励，加油！</h5>
+        <div class="expression"><img src="img/fail_expression.png" alt=""></div>
+        <div class="btn">
+            <span><img src="img/fail_btn1.png" alt=""></span>
+            <span><img src="img/fail_btn2.png" alt=""></span>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/lib/app.js"></script>
+    <script type="text/javascript" src="js/style.js"></script>
+    <script type="text/javascript" src="js/lib/swiper.min.js"></script>
+</body>
+
+</html>
